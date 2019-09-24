@@ -13,40 +13,41 @@ if (question01.toLowerCase() === 'no' || question01.toLowerCase() === 'n') {
   alert('Good guess, but I actually do not have any children. I am a proud aunt!');
 }
 
-var question02 = prompt('question02');
+var question02 = prompt('Is my favorite outdoor activity running?');
 if (question02.toLowerCase() === 'no' || question02.toLowerCase() === 'n') {
-//console.log('insertalert');
-  alert('Correct! __________');
+//console.log('Correct! Running is NOT my jam. I LOVE hiking though and I\'ll wave to the hardcore trail runners as they pass me by.');
+  alert('Correct! Running is NOT my jam. I LOVE hiking though and I\'ll wave to the hardcore trail runners as they pass me by.');
 } else {
-//console.log('insertalert');
-  alert('Good guess, but ___________');
+//console.log('Good guess, but running is NOT my jam. I LOVE hiking though and I\'ll wave to the hardcore trail runners as they pass me by.');
+  alert('Good guess, but running is NOT my jam. I LOVE hiking though and I\'ll wave to the hardcore trail runners as they pass me by.');
 }
 
-var question03 = prompt('question03');
-if (question03.toLowerCase() === 'no' || question03.toLowerCase() === 'n') {
-//console.log('insertalert');
-  alert('Correct! __________');
+var question03 = prompt('Is my primary goal in life to work hard in order to spoil my future dog?');
+if (question03.toLowerCase() === 'yes' || question03.toLowerCase() === 'y') {
+//console.log('Correct! I love dogs (and most all other animals) and can\'t wait to have one or more to spoil.');
+  alert('Correct! I love dogs (and most all other animals) and can\'t wait to have one or more to spoil.');
 } else {
-//console.log('insertalert');
-  alert('Good guess, but ___________');
+//console.log('Good guess, but I love dogs (and most all other animals) and can\'t wait to have one or more to spoil.');
+  alert('Good guess, but I love dogs (and most all other animals) and can\'t wait to have one or more to spoil.');
 }
 
-var question04 = prompt('question04');
+var question04 = prompt('Do I like cilantro?');
 if (question04.toLowerCase() === 'no' || question04.toLowerCase() === 'n') {
-//console.log('insertalert');
-  alert('Correct! __________');
+//console.log('Correct! Cilantro tastes like soap to me (apparently this is a genetic thing). Bummer since it\'s common in so many great dishes.');
+  alert('Correct! Cilantro tastes like soap to me (apparently this is a genetic thing). Bummer since it\'s common in so many great dishes.');
 } else {
-//console.log('insertalert');
-  alert('Good guess, but ___________');
+//console.log('Good guess, but cilantro tastes like soap to me (apparently this is a genetic thing). Bummer since it\'s common in so many great dishes.');
+  alert('Good guess, but cilantro tastes like soap to me (apparently this is a genetic thing). Bummer since it\'s common in so many great dishes.');
 }
 
-var question05 = prompt('question05');
-if (question05.toLowerCase() === 'no' || question05.toLowerCase() === 'n') {
-//console.log('insertalert');
-  alert('Correct! __________');
+var question05 = prompt('Is my current favorite TV series Mr. Robot?');
+if (question05.toLowerCase() === 'yes' || question05.toLowerCase() === 'y') {
+//console.log('Correct! Mr. Robot is an awesome show. Why aren\'t you watching it right now?');
+  alert('Correct! Mr. Robot is an awesome show. Why aren\'t you watching it right now?');
 } else {
-//console.log('insertalert');
-  alert('Good guess, but ___________');
+//console.log('Good guess, but Mr. Robot is an awesome show. Why aren\'t you watching it right now?');
+  alert('Good guess, but Mr. Robot is an awesome show. Why aren\'t you watching it right now?');
 }
 
 alert('Thanks, ' + userName + ', for learning more about me!');
+
