@@ -57,23 +57,25 @@ var correctNum = 17;
 //the number the user guessed
 var numGuess = parseInt(prompt('I\'m thinking of a number between 1 and 20. Try guessing what it is:'));
 console.log(numGuess);
-//try counter
-var tryCounter = 0;
-
-do {
+//"i" stands for the user's current try number
+var i = 0;
+for (i = 0; i < 3; i++) {
   if (numGuess < correctNum) {
     numGuess = parseInt(prompt('Your guess is too low. Try again:'));
     console.log(numGuess);
   } else if (numGuess > correctNum) {
     numGuess = parseInt(prompt('Your guess is too high. Try again:'));
     console.log(numGuess);
-  } else {
+  } else if (numGuess === 17) {
     alert('You guessed right!');
+    break;
+    //if someone enters something other than a number
+  } else {
+    numGuess = parseInt(prompt('Please enter a number:'));
   }
-  tryCounter++;
-} while (tryCounter < 3);
+}
 
-//need to tell user correct answer if they didn't guess it 
+alert('The secret number is 17');
 
 // * Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // * Indicates through an alert if the guess is “too high” or “too low”.
