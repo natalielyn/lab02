@@ -13,3 +13,5 @@ A page with information about the site owner and fun guessing games regarding th
 - styled CSS at the element level only (no IDs or classes) 
 - created a user greeting including name input prompt
 - created initial yes/no quiz that prompts user to answer questions about the site owner
+
+Holly was the navigator, and Natalie was the driver. Holly directed Natalie to wrap each game in a function and then call the functions.
