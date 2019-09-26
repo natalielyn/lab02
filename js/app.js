@@ -1,5 +1,5 @@
 'use strict';
-
+function game01() {
 var userName = prompt('Hi there, what\'s your name?');
 alert('Hi ' + userName + '! I\'m going to ask you a few questions. Give it your best guess and then I\'ll let you know the answer.');
 var rightAnswer = 0;
@@ -48,8 +48,10 @@ if (question05.toLowerCase() === 'yes' || question05.toLowerCase() === 'y') {
 } else {
   alert('Good guess, but Mr. Robot is an awesome show. Why aren\'t you watching it right now?');
 }
+}
 
 //Question 06 - Guessing a number
+function game02() {
 var correctNum = 17;
 var numGuess = parseInt(prompt('I\'m thinking of a number between 1 and 20. Try guessing what it is:'));
 var i = 0;
@@ -68,8 +70,9 @@ for (i = 0; i < 3; i++) {
 }
 
 alert('The secret number is 17');
-
+}
 // Question 07 - Guessing my favorite animals
+function game03() {
 var myFavAnimals = ['cows', 'pigs', 'dogs', 'hedgehogs', 'rockchucks'];
 var animalGuess = (prompt('Try guessing my favorite animals. Write your guess in plural format (e.g. "squirrels" which are our awesome tree-neighbors, but not on my list for this game).')).toLowerCase();
 for (i = 0; i < 5; i++) {
@@ -83,3 +86,9 @@ for (i = 0; i < 5; i++) {
 alert ('My favorite animals are cows, pigs, dogs, hedgehogs, and rockchucks.');
 
 alert('Nice job, ' + userName + ', you got ' + rightAnswer + ' questions right! Thanks for taking my quiz!');
+}
+
+
+game01();
+game02();
+game03();
